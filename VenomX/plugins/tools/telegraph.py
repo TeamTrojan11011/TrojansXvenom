@@ -8,7 +8,7 @@ from VenomX import app
 def upload_media_to_imgbb(media_path):
     url = "https://api.imgbb.com/1/upload"
     # This is a public anonymous key from ImgBB for basic usage (replace with yours if necessary)
-    key = "yourapikey"  # You can get one for free by registering
+    key = "ed597fb1ab9e3381799b5e3dba89d2c2"  # You can get one for free by registering
     
     with open(media_path, 'rb') as file:
         response = requests.post(url, data={'key': key}, files={'image': file})
