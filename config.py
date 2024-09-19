@@ -33,6 +33,8 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # Get it from http://dashboard.heroku.com/account
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
+API_KEY = getenv("API_KEY", "ed597fb1ab9e3381799b5e3dba89d2c2"))
+
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
     "https://github.com/TeamTrojan11011/TrojansXvenom",
